@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: 20fr 2fr 2fr;
+  min-height: 200px;
+  grid-gap: 1em;
+  border: rgb(15, 176, 136) 5px solid;
+}
+
+.one {
+  border: rgb(15, 176, 136) 5px solid;
+}
+.two {
+  border: rgb(15, 176, 136) 5px solid;
+}
+.three {
+  border: rgb(15, 176, 136) 5px solid;
+}
+.four {
+  border: rgb(15, 176, 136) 5px solid;
+}
