@@ -1,21 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Roboto:ital,wght@0,300;1,400&display=swap");
 .container {
   display: grid;
-  grid-template-columns: 2fr 3fr 2fr;
-  grid-template-rows: 20fr 2fr 2fr;
-  min-height: 200px;
+  grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 1em;
   border: rgb(15, 176, 136) 5px solid;
 }
 
-.one {
+.section-1 {
   border: rgb(15, 176, 136) 5px solid;
 }
-.two {
+.section-2 {
   border: rgb(15, 176, 136) 5px solid;
 }
-.three {
+.title {
+  position: absolute;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+}
+.img2 {
+  width: 920px;
+  height: 320px;
+}
+
+.section-3 {
   border: rgb(15, 176, 136) 5px solid;
 }
-.four {
+.section-4 {
   border: rgb(15, 176, 136) 5px solid;
+  grid-template-rows: 1fr 2fr;
 }
