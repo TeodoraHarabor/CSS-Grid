@@ -2,32 +2,47 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
   grid-gap: 1em;
   border: rgb(15, 176, 136) 5px solid;
 }
-
+/*section 1 */
 .section-1 {
   border: rgb(15, 176, 136) 5px solid;
 }
+.img1 {
+  width: 460px;
+  height: 320px;
+}
+/*section 2 */
 .section-2 {
   border: rgb(15, 176, 136) 5px solid;
+  background-color: rgb(244 230 209);
 }
 .title {
   position: absolute;
-  text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(15, 176, 136);
   font-size: 50px;
   font-family: "Dancing Script", cursive;
   font-style: italic;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -600%);
 }
 .img2 {
   width: 920px;
   height: 320px;
 }
-
+/*section 3 */
 .section-3 {
   border: rgb(15, 176, 136) 5px solid;
 }
+.img3 {
+  width: 460px;
+  height: 320px;
+}
+/*section 4 */
 .section-4 {
   border: rgb(15, 176, 136) 5px solid;
   grid-template-rows: 1fr 2fr;
